@@ -1,0 +1,61 @@
+
+body{
+  color: white;
+  background: black;
+  margin: 20px;
+}
+
+header{
+  font-size: 80px;
+  color: rgb(4,4,143);
+  border-bottom: solid 2px white;
+  margin: 20px;
+  padding: 20px;
+  display: relative;
+  font-family: "Calistoga", serif;
+}
+
+.inicio{
+  background: rgba(38,38,182,0.47);
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  font-family: "Playfair Display", serif;
+}
+
+.entrada{
+  margin-right: 50px;
+}
+
+.descricao{
+  font-size: 30px;
+  text-align: justify;
+}
+
+img{
+  height: 200px;
+}
+
+.trailers{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.outros{
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outros img:hover{
+  opacity: 1.0;
+  border: solid 3px blue;
+  border-radius: 20px;
+}
